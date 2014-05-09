@@ -3,7 +3,7 @@ Splunk
 
 Heartbeat
 ---------
-	splunk-heartbeat is real-time health check for splunk indexer which implement with index replication. When splunk indexer die the script will swap pre-config file inside splunkforwarder. This script will work in case the machine is down. not just splunk service. To monitor service, I'll write another script(in python) to check port by port, but don't know when :p.
+	splunk-heartbeat is real-time health check for splunk indexer(which implemented with index replication solution). When splunk indexer die the script will swap pre-config file inside splunkforwarder. This script will work in case the machine is down. not just splunk service. To monitor service, I'll write another script(in python) to check port by port, but don't expected it because I don't know when :p.
 
 Heartbeat: How to
 -----------------
